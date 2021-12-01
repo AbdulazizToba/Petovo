@@ -16,7 +16,6 @@ namespace API.Controllers
     public class PetsController : ControllerBase
     {
         private readonly DataContext _context;
-
         public PetsController(DataContext context)
         {
             _context = context;
